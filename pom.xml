@@ -6,6 +6,15 @@
   <packaging>pom</packaging>
   <modules>
     <module>knowledge-club-subject</module>
+    <module>knowledge-club-subject/knowledge-club-subject-api</module>
+    <module>knowledge-club-subject/knowledge-club-application</module>
+    <module>knowledge-club-subject/knowledge-club-domain</module>
+    <module>knowledge-club-subject/knowledge-club-common</module>
+    <module>knowledge-club-subject/knowledge-club-start</module>
+    <module>knowledge-club-subject/knowledge-club-infra</module>
+    <module>knowledge-club-subject/knowledge-club-application/knowledge-club-application-controller</module>
+    <module>knowledge-club-subject/knowledge-club-application/knowledge-club-application-job</module>
+    <module>knowledge-club-subject/knowledge-club-application/knowledge-club-application-mq</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
   <name>knowledgeClub Maven Webapp</name>
